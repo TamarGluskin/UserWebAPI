@@ -26,7 +26,7 @@ namespace User_sManagementConsist.Controllers
             try
             {
                 _userRepository.CreateUser(user);
-                return Ok("The user added sucssesfull");
+                return Ok("The user has been added successfully");
             }
             catch (Exception ex)
             {

@@ -17,7 +17,7 @@ namespace User_sManagementConsist.Repositories
         {
             if(_context.Users.Any(u => u.UserId == user.UserId))
             {
-                throw new Exception("the id of  the user exixt");
+                throw new Exception("the id of  the user exists");
             }
             else
             {
@@ -42,7 +42,7 @@ namespace User_sManagementConsist.Repositories
             }
             else
             {
-                throw new Exception("the id of  the user is not exixt");
+                throw new Exception("the id of  the user is not exists");
             }
         }
 
